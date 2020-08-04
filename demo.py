@@ -1,20 +1,3 @@
-# encoding ：UTF-8
-
-'''
-利用opencv自带的基于深度学习训练的函数来做人脸识别，准确率比Haar cascades要高
-'''
-# import os
-# g = os.walk(r"E:\PycharmProjects\untitled\tensorflow-serving-yolov3-master\docs\images")
-# print(os.listdir(r"E:\PycharmProjects\untitled\tensorflow-serving-yolov3-master\docs\images"))
-# n = 0
-# for path, d, filelist in g:
-#     for filename in filelist:
-#         f = os.path.join(path, filename)
-#         print(f)
-#     if not os.path.exists("./JsonToXml/xmlDataset/ImageSets/Main"):
-#         os.makedirs("./JsonToXml/xmlDataset/ImageSets/Main")
-
-
 import numpy as np
 import cv2
 
