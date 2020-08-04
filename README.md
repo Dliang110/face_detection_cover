@@ -1,7 +1,5 @@
 import numpy as np
 import cv2
-
-# 定义相关的路径参数
 modelPath = "H:/PycharmProjects/untitled/qt_jiemian/deploy.prototxt.txt"
 weightPath = "H:/PycharmProjects/untitled/qt_jiemian/res10_300x300_ssd_iter_140000.caffemodel"
 confidence = 0.5  # 置信度参数，高于此数才认为是人脸，可调
